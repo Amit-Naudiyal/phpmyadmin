@@ -335,7 +335,7 @@ if ($databases_count > 0) {
                 . '            ' . __('Enable Statistics');
         echo '</a></strong><br />' . "\n";
         PMA_Message::notice(
-            __('Note: Enabling the database statistics here might cause heavy traffic between the web server and the MySQL server v3.0.')
+            __('Note: Enabling the database statistics here might cause heavy traffic between the web server and the MySQL server v4.0.')
         )->display();
         echo '</li>' . "\n" . '</ul>' . "\n";
     }
